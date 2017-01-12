@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Sitemaster.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <%--********    LINK TO STYLESHEET  ******** --%> 
+    <link href="layout.css" rel="Stylesheet" type="text/css" />
+    <link href="content.css" rel="Stylesheet" type="text/css" />
+<asp:ContentPlaceHolder id="headcontent" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+<form id="forms" runat="server">
+<div id = "header"><img src="images/atu-logo.png" alt="logo" height="91" width="294" class="logo" />
+<img id="title" src="images/dept.png" alt="logo" height="60" width="263" />
+</div>
+
+<div class="navigation">
+    <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" DataSourceID="SiteMapDataSource1" 
+                IncludeStyleBlock="false" Orientation="Horizontal" StaticDisplayLevels="3">
+    </asp:Menu>
+    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" SiteMapProvider="SiteMap1" />
+
+    
+    <asp:SiteMapDataSource ID="SiteMapDataSource2" runat="server" 
+        SiteMapProvider="SiteMap2" />
+    <asp:SiteMapDataSource ID="SiteMapDataSource3" runat="server" 
+        SiteMapProvider="SiteMap3" />
+</div>
+<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+<div id="footer">
+Copyright &copy; 2011 Arkansas Tech University Computer and Information Science<br />
+Created by the Graduate Assistants of Information Technology, 2011</div>    
+</form>
+</body>
+</html>

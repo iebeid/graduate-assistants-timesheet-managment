@@ -1,0 +1,8 @@
+D:\sources\Visual Studio 2013\Projects\GA Timesheet Application\bin\Debug\ConsoleApplication.exe.config
+D:\sources\Visual Studio 2013\Projects\GA Timesheet Application\obj\x86\Debug\GaTimesheetApp.csprojResolveAssemblyReference.cache
+D:\sources\Visual Studio 2013\Projects\GA Timesheet Application\obj\x86\Debug\GaTimesheetApp.Properties.Resources.resources
+D:\sources\Visual Studio 2013\Projects\GA Timesheet Application\obj\x86\Debug\GaTimesheetApp.csproj.GenerateResource.Cache
+D:\Projects\ArkansasTechUniversity\GATimesheets\Sources\VisualStudioProjects\GA Timesheet Application\bin\Debug\ConsoleApplication.exe.config
+D:\Projects\ArkansasTechUniversity\GATimesheets\Sources\VisualStudioProjects\GA Timesheet Application\obj\x86\Debug\GaTimesheetApp.csprojResolveAssemblyReference.cache
+D:\Projects\ArkansasTechUniversity\GATimesheets\Sources\VisualStudioProjects\GA Timesheet Application\obj\x86\Debug\GaTimesheetApp.Properties.Resources.resources
+D:\Projects\ArkansasTechUniversity\GATimesheets\Sources\VisualStudioProjects\GA Timesheet Application\obj\x86\Debug\GaTimesheetApp.csproj.GenerateResource.Cache
